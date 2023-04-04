@@ -3,14 +3,59 @@
     margin: 0;
     box-sizing: border-box;
  }
- #primo_hr{
-    margin-top: 50px;margin-left: 10%;margin-right: 10%;
- }
-.Logo{
+
+.logo{
     display: inline-block;
-    margin-top: 10px;margin-left: 180px;
+    margin-top: 10px; margin-left: 20px;
+    width: 100px;
+    height: 100px;
 }
-#div_main{
-    margin: 1% 10% 1%1 10%;
-    background-color: rgb(216, 213, 213);
+
+h1{
+    display: inline;
+}
+
+.div_main{
+    
+    background-color: rgb(238, 235, 235);
+    padding: 1% 5% 1% 5%;
+
+}
+.main_header{
+    background-color: white;
+    padding: 2%;
+    margin-top: 15px;
+}
+.rettangolo_lista{
+    background-color: white;
+    padding: 2%;
+
+}
+.bottone{
+    padding: 10px;
+    background-color: blue;
+}
+.barra_testo{
+    padding: 10px;
+}
+.linea{
+    color: transparent;
+    padding: 1px;
+}
+section{
+    margin-top: 40px;
+}
+h3{
+    display: inline;
+}
+h4{
+    display: inline;
+}
+
+span{
+    border-radius: 20px;
+    padding:5px;
+    background-color: blue;
+    color: white;
+
 }
