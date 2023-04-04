@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+ #primo_hr{
+    margin-top: 50px;margin-left: 10%;margin-right: 10%;
+ }
+.Logo{
+    display: inline-block;
+    margin-top: 10px;margin-left: 180px;
+}
+#div_main{
+    margin: 1% 10% 1%1 10%;
+    background-color: rgb(216, 213, 213);
+}
