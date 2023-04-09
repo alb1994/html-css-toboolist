@@ -4,47 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
 </head>
 <body>
-    <header> <!--inizio header-->
+    <header><!--inizio header-->
         <img class="logo" src="./img/Logo.png" alt="">
-<span class="scritta_logo"><h1><strong>The Toboolist</strong></h1></span>
-    </header><!--fine header-->
-    <main><!--inizio main-->
-        <div class="div_main">
-            <div class="main_header">
-                <!--inizio prima parte del main-->
-                    <button class="bottone">ad task</button>
-                    <input class="barra_testo" type="text" placeholder="Add Sections">
-                <!--fine prima parte del main-->
-            </div>
-             <hr>
-            <div class="lista">
-                <!--inizio lista main-->
-                    <section><!--prima sezione lista-->
-                        <h2><strong>&#9660 New Task</strong></h2><br>
-                        <h3>&#9989 quarterly newsletter</h3> <span class="rettangolo_blu"><h4>Editorial</h4></span>
-                    </section><!--fine prima sezione lista-->
-                    <section><!--seconda sezione lista-->
-                        <h2><strong>&#9660 Todey</strong></h2><br>
-                        <h3>&#9989 Recluting blog post</h3> <span class="rettangolo_blu"><h4>Editorial</h4></span><br>
-                        <h3>&#9989 Mobile app luancher</h3> <span class="rettangolo_viola"><h4>Q1 Goals</h4></span><br>
-                        <h3>&#10060 Interview John H</h3> <span class="rettangolo_verde"><h4>Recruting</h4></span><br>
-                        <h3>&#9989 Summit update to mobile storefronts</h3> <span class="rettangolo_arancio"><h4>Mobile</h4></span><br>
-                    </section><!--fine seconda sezione lista-->
-                    <section><!--terza sezione lista-->
-                        <h2><strong>&#9660 Uncoming</strong></h2>
-                        <h3>&#10060 Schedule meeting with Alex</h3><br> 
-                        <h3>&#9989 Homepage refresh</h3> <span class="rettangolo_viola2"><h4>Website</h4></span><br>
-                        <h3>&#9989 Onboard new Sales team menbers</h3> <span class="rettangolo_verde2"><h4>Sales</h4></span><br>
-                        <h3>&#9989 Review editorial calendar</h3> <span class="rettangolo_blu"><h4>Editorial</h4></span><br>
-                    </section><!--fine terza sezione lista-->
-                <!--fine lista main-->
-            </div>
-        </div>
+        <span class="scritta_logo"><h1>Toboolist</h1></span>
 
-    </main><!--fine main-->
+    </header><!--fine header-->
+    <div class="contenitore"><!-- inizio contenitore di nav e main-->   
+        <nav><!--inizio nav-->
+            <button class="nav_1">ad task</button>
+            <input class="nav_2" type="text" placeholder="Add Sections">
+        </nav><!--fine nav-->
+        <hr>
+        <main><!--inizio main-->
+            <ul>
+                <li><strong>&#9660;New Task</strong>
+                    <ul>
+                        <li><span class="cerchio">&check;</span> Newsletter<span class="rettangolo_blu">Editorial</span></li>
+                    </ul>
+                 </li>
+                 <li><strong>&#9660;Today</strong>
+                    <ul>
+                        <li><span class="cerchio">&check;</span>Recruting blog post<span class="rettangolo_blu">Editorial</span></li>
+                        <li><span class="cerchio">&check;</span>Mobile app luncher<span class="rettangolo_viola">Q1 Goals</span></li>
+                        <li><span class="cerchio-x">&cross;</span>Interview john H.<span class="rettangolo_verde">Recruting</span></li>
+                        <li><span class="cerchio">&check;</span>Summit update to mobiile storefronts<span class="rettangolo_arancio">Mobile</span></li>
+                    </ul>
+                 </li>
+                 <li><strong>&#9660;Upcoming</strong>
+                    <ul>
+                        <li><span class="cerchio-x">&cross;</span>Schedule meeting with Alex</li>
+                        <li><span class="cerchio">&check;</span>Homepage refresh<span class="rettangolo_viola2">Website</span></li>
+                        <li><span class="cerchio">&check;</span>Onboard new Sales team members<span class="rettangolo_verde2">Sales</span></li>
+                        <li><span class="cerchio">&check;</span>Review editorial calendar<span class="rettangolo_blu">Editorial</span></li>
+                    </ul>
+                 </li>
+            </ul>
+
+        </main><!--fine main-->
+    </div><!--fine contenitore di nav e main-->
 </body>
 </html>
